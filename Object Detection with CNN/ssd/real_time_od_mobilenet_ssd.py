@@ -6,7 +6,7 @@ Created on Tue Feb 16 15:26:33 2021
 """
 
 """
--Instead of using a floating window, SSD divides the image using a grid
+-Instead of using a sliding window, SSD divides the image using a grid
 -Making each grid cell responsible for detecting objects in that area of the image.
 -Detecting objects means guessing the class and position of an object in that area
 
