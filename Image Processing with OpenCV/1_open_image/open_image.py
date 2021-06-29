@@ -8,7 +8,7 @@ Created on Tue Dec 22 20:28:51 2020
 import cv2
  
 # import the image
-img = cv2.imread("messi5.jpg", 1) # 1 is color, 0 is gray
+img = cv2.imread("messi5.jpg", 0) # 1 is color, 0 is gray
  
 # visualization (show the img) 
 cv2.imshow("ilk resim", img)
