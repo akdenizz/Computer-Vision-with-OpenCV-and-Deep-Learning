@@ -46,3 +46,4 @@ print(high)
 edges = cv2.Canny(image = blurred_img, threshold1 = low, threshold2 = high)
 plt.figure(), plt.imshow(edges, cmap = "gray"), plt.axis("off")
 
+ #xs
